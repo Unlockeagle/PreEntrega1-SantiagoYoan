@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../image/fondo-textura-papel-arrugado-blanco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* inicio de header */
+header {
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    background-color: #9244ff;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: .5px .5px 10px rgb(70, 70, 70)
+}
+
+.header_logo {
+    width: 100px;
+    height: auto;
+    margin-right: 130px;
+}
+
+nav {
+    display: inline-block;
+    align-items: center;
+}
+
+.nav_ul {
+    columns: 5;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.nav_ul a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.nav_ul a:active {
+    border-radius: 5px;
+}
+
+.nav_li {
+    list-style: none;
+}
+
+.header_rrss {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.header_rrss a {
+    margin-left: 12px;
+}
+
+/* fin de header */
+
+/* Inicio del Hero */
+
+.main_hero {
+    display: inline-block;
+    margin-top: 10px;
+    columns: 2;
+    width: 100%;
+    text-align: center;
+    background-image: url(/image/Squares\ Cricle\ triangles.png);
+    background-repeat: repeat;
+    background-size: cover;
+    height: 480px;
+    padding: 0px 250px 0px 250px;
+}
+
+.main_hero h1 {
+    margin-top: 80px;
+    display: inline-block;
+    text-align: center;
+    color: #9144FF;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.hero_btn {
+    margin-top: 32px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background-color: #FFAD13;
+    box-shadow: .5px .5px 5px rgb(70, 70, 70);
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.main_hero h1 span {
+    color: #FFAD13;
+}
+
+
+.main_hero img {
+    transform: scaleX(-1);
+    display: inline-block;
+    width: 500px;
+}
+
+/* Fin del Hero */
+
+
+/* inicio carrusel */
+.main_carrusel {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main_carrusel div {
+    display: inline-block;
+    margin: auto;
+}
+
+.main_carrusel div img {
+    width: 150px;
+    margin: 0px 32px;
+}
+
+/* Fin carrusel */
+
+
+/* Inicio Contenido de la web  */
+.main_contenido {
+    display: block;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.contenido_texto {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #9144FF;
+}
+
+.contenido_texto h2 {
+    margin-top: 0px;
+    text-align: start;
+    padding: 0px 20px;
+    font-size: 24px;
+    color: #9144FF;
+}
+
+.contenido_texto p {
+    margin-top: 0px;
+    text-align: start;
+    padding: 20px 40px 20px 20px;
+    font-size: 16px;
+}
+
+.main_contenido iframe {
+    display: inline-block;
+
+}
+
+.main_contenido2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.main_contenido2 img {
+    width: 500px;
+}
+
+/* Fin Contenido de la web  */
+
+
+/* Inicio de footer */
+footer {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    width: 100%;
+    height: 240px;
+    background-color: #9144FF;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: .5px .5px 10px rgb(70, 70, 70)
+}
+
+
+.footer_logo {
+    display: inline;
+    width: 100px;
+    height: auto;
+    margin: 0px 60px 0px 0px;
+    padding-bottom: 50px;
+}
+
+.footer_ul {
+    display: inline-block;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.footer_ul a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.footer_li {
+    list-style: none;
+}
+
+.footer_contactanos {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.footer_contactanos label {
+    display: block;
+    margin-left: 16px;
+    text-align: start;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer_contactanos input {
+    margin-left: 16px;
+    align-items: center;
+    width: 250px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: .5px .5px 5px rgb(70, 70, 70)
+}
+
+::placeholder {
+    color: #9144FF;
+}
+
+.footer_btn {
+    background-color: #FFAD13;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    box-shadow: .5px .5px 5px rgb(70, 70, 70)
+}
+
+footer h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer h3 span {
+    color: #Fafafa;
+    font-size: 20px;
+}
+
+.footer_rrss {
+    display: block;
+    text-align: end;
+    margin-bottom: 28px;
+    margin-right: 0px;
+}
+
+.footer_rrss a {
+    margin-left: 8px;
+}
+/* Fin de footer */
+
+
+/************************** Inicio - Nosotros *****************************/
+.main_contenido3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.main_contenido3 img {
+    margin: 0px 80px;
+    width: 300px;
+}
+
+/**************************** Fin - Nosotros ******************************/
+
+
+/************************** Inicio - Servicios *****************************/
+.main_servicios img {
+    transform: scaleX(1);
+    padding-top: 62px;
+    margin-left: 40px;
+    width: 600px;
+}
+
+.main_carrusel--servicios {
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.main_carrusel--servicios div {
+    display: inline;
+    margin: auto;
+    width: 100%;
+}
+
+.main_carrusel--servicios div img {
+    object-fit: cover;
+    width: 200px;
+    height: 130px;
+    margin: 0px 32px;
+    border-radius: 16px;
+}
+
+.contenido_servicios {
+    width: 100%;
+}
+
+.contenido_servicios img {
+    object-fit: cover;
+    width: 400px;
+    height: 260px;
+    border-radius: 16px;
+}
+/************************** Fin - Servicios *****************************/
+
+
+/************************** Inicio - Portafolio *****************************/
+.hero_portafolio img {
+    width: 450px;
+    margin-top: 0px;
+}
+/************************** Fin - Portafolio *****************************/
+
+
+/************************** Inicio - Contacto *****************************/
+.main_carrusel h2 {
+    font-size: 32px;
+    padding: 32px;
+}
+.contacto_container {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin: 0px -5px 0px 20px;
+    padding: 0px 20px;
+    background-color: #9144FF;
+    border-radius: 16px 0px 0px 16px;
+    box-shadow: 10px 5px 10px rgb(70, 70, 70)
+}
+.contacto_container h2 {
+    color: #fafafa;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.contacto_container input {
+    width: 320px;
+    margin-bottom: 16px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: .5px .5px 5px rgb(70, 70, 70)
+}
+
+.contacto_container textarea {
+    width: 320px;
+    height: 64px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: .5px .5px 5px rgb(70, 70, 70)
+}
+
+.contacto_btn .reset {
+    background-color: #Fafafa;
+}
+
+.contacto_btn .reset:hover {
+    box-shadow: 0px 0px 6px rgb(255, 255, 255)
+}
+
+
+
+.contacto_btn .submit {
+    background-color: #FFAD13;
+    margin-left: 32px;
+}
+
+.contacto_btn .submit:hover {
+    background-color: #ffa600;
+    box-shadow: 0px 0px 6px rgb(255, 255, 255)
+}
+
+.contacto_btn input {
+    width: 120px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.contacto_info {
+    vertical-align: top;
+    width: 600px;
+    height: 500px;
+    background-color: #Fafafa;
+    border-radius: 0px 16px 16px 0px;
+    box-shadow: 10px 5px 10px rgb(70, 70, 70)
+}
+
+.contacto_rrss a i img {
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 0px 28px;
+    width: 40px;
+}
+
+.contacto_info h2 {
+    font-size: 32px;
+}
+
+.contacto_info h3 {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_hero p {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+/************************** Fin - Contacto *****************************/
